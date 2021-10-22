@@ -14,7 +14,7 @@ class CVE202014882(BasePoc):
         'poc': {
             'Id': 'vb_2021_0011',    # PoC的VID编号
             'vbid': '',
-            'Name': 'Weblogic RCE',    # PoC名称
+            'Name': 'Weblogic RCE CVE-2020-14882',    # PoC名称
             'Author': 'mumu',    # PoC作者
             'Create_date': '2021-06-25',    # PoC创建时间
             },
