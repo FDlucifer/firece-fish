@@ -84,10 +84,10 @@ Atlassian Jira Information disclosure|vb_2021_0034|[Atlassian Jira Information d
 LANLING OA file read|vb_2021_0035|[LANLING OA file read](pocs/vb_2021_0035_OA_fileread.py)
 CISCO Read-Only Path Traversal Vuln|vb_2021_0036|[CISCO Read-Only Path Traversal Vuln](pocs/vb_2021_0036_CISCO_Arbitrary_File_Read.py)
 Seeyon_Ajax_Getshell|vb_2021_0037|[Seeyon_Ajax_Getshell](pocs/vb_2021_0037_Seeyon_Ajax_Getshell.py)
-内容|vb_2021_0038|内容
-内容|vb_2021_0039|内容
-内容|vb_2021_0040|内容
-内容|vb_2021_0041|内容
+待补充|vb_2021_0038|[待补充]()
+待补充|vb_2021_0039|[待补充]()
+待补充|vb_2021_0040|[待补充]()
+待补充|vb_2021_0041|[待补充]()
 zyxel_nbg2105_bypass_auth|vb_2021_0042|[zyxel_nbg2105_bypass_auth](pocs/vb_2021_0042_zyxel_nbg2105_bypass_auth.py)
 HIKVISION_file_read|vb_2021_0043|[HIKVISION_file_read](pocs/vb_2021_0043_HIKVISION_file_read.py)
 CVE_2021_41773_poc_and_exploit|vb_2021_0044|[CVE_2021_41773_poc_and_exploit](pocs/vb_2021_0044_CVE_2021_41773_poc_and_exploit.py)
