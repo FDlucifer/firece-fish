@@ -92,6 +92,7 @@ zyxel_nbg2105_bypass_auth|vb_2021_0042|[zyxel_nbg2105_bypass_auth](pocs/vb_2021_
 HIKVISION_file_read|vb_2021_0043|[HIKVISION_file_read](pocs/vb_2021_0043_HIKVISION_file_read.py)
 CVE_2021_41773_poc_and_exploit|vb_2021_0044|[CVE_2021_41773_poc_and_exploit](pocs/vb_2021_0044_CVE_2021_41773_poc_and_exploit.py)
 CVE_2021_42013_poc_and_exploit|vb_2021_0045|[CVE_2021_42013_poc_and_exploit](pocs/vb_2021_0045_CVE_2021_42013_poc_and_exp.py)
+CVE_2021_38647_omigod_RCE|vb_2021_0046|[CVE_2021_42013_poc_and_exploit](pocs/vb_2021_0046_cve_2021_38647_omigod.py)
 
 ### 特点
 
