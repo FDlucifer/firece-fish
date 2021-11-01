@@ -9,7 +9,7 @@ class dedecms57_cve_2018_6910(BasePoc):
 
     poc_info = {
         'poc': {
-            'Id': 'vb_2021_0038',    # PoC的VID编号
+            'Id': 'vb_2021_0039',    # PoC的VID编号
             'vbid': '',
             'Name': 'dedecms57_cve_2018_6910',    # PoC名称
             'Author': 'lUc1f3r11',    # PoC作者
