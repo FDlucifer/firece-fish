@@ -87,7 +87,7 @@ Seeyon_Ajax_Getshell|vb_2021_0037|[Seeyon_Ajax_Getshell](pocs/vb_2021_0037_Seeyo
 vb_2021_0038_iis6_webdav_CVE_2017_7269|vb_2021_0038|[vb_2021_0038_iis6_webdav_CVE_2017_7269](pocs/vb_2021_0038_iis6_webdav_CVE-2017-7269.py)
 dedecms57_cve_2018_6910|vb_2021_0039|[dedecms57_cve_2018_6910](pocs/vb_2021_0039_dedecms57_cve_2018_6910.py)
 Weaver_OA_e_Bridge_fileread|vb_2021_0040|[Weaver_OA_e_Bridge_fileread](pocs/vb_2021_0040_Weaver_OA_e_Bridge_fileread.py)
-待补充|vb_2021_0041|[待补充]()
+huayu_reporter_rce|vb_2021_0041|[huayu_reporter_rce](pocs/vb_2021_0041_huayu_reporter_rce.py)
 zyxel_nbg2105_bypass_auth|vb_2021_0042|[zyxel_nbg2105_bypass_auth](pocs/vb_2021_0042_zyxel_nbg2105_bypass_auth.py)
 HIKVISION_file_read|vb_2021_0043|[HIKVISION_file_read](pocs/vb_2021_0043_HIKVISION_file_read.py)
 CVE_2021_41773_poc_and_exploit|vb_2021_0044|[CVE_2021_41773_poc_and_exploit](pocs/vb_2021_0044_CVE_2021_41773_poc_and_exploit.py)
