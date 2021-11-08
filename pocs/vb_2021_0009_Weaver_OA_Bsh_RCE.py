@@ -4,7 +4,6 @@ from urllib.parse import urljoin
 
 POC_NAME = "WeaverOAREC"    # PoC脚本中实现的类名，TCC框架将根据POC_NAME去实例化类以达到调用的效果，因此类名应与该变量名保持相同
 
-
 class WeaverOAREC(BasePoc):
 
     poc_info = {
