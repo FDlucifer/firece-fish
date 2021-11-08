@@ -95,6 +95,7 @@ CVE_2021_42013_poc_and_exploit|vb_2021_0045|[CVE_2021_42013_poc_and_exploit](poc
 CVE_2021_38647_omigod_RCE|vb_2021_0046|[CVE_2021_38647_omigod_RCE](pocs/vb_2021_0046_cve_2021_38647_omigod.py)
 CVE_2021_26855_proxylogon|vb_2021_0047|[CVE_2021_26855_proxylogon](pocs/vb_2021_0047_CVE_2021_26855_proxylogon.py)
 CVE_2021_22005_VMWare_vCenter_Server_File_Upload|vb_2021_0048|[CVE_2021_22005_VMWare_vCenter_Server_File_Upload](pocs/vb_2021_0048_CVE_2021_22005_VMWare_vCenter_Server_File_Upload.py)
+CVE_2021_22205_gitlab_unauth_rce|vb_2021_0049|[CVE_2021_22205_gitlab_unauth_rce](pocs/vb_2021_0049_CVE_2021_22205_gitlab_unauth_rce.py)
 
 ### 特点
 
