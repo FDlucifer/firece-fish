@@ -79,8 +79,8 @@ Apache Flink Read File|vb_2021_0029|[Apache Flink Read File](pocs/vb_2021_0029_A
 Apache Flink Rce|vb_2021_0030|[Apache Flink Rce](pocs/vb_2021_0030_Apache%20Flink%20_RCE.py)
 3C HG659 Lib An Arbitrary FileRead|vb_2021_0031|[3C HG659 Lib An Arbitrary FileRead](pocs/vb_2021_0031_H3C_HG659_Lib_An_Arbitrary_File_Read.py)
 IceWarp WebClient Basic RCE|vb_2021_0032|[IceWarp WebClient Basic RCE](pocs/vb_2021_0032_IceWarp_WebClient_Basic_RCE.py)
-亿赛通命令执行漏洞|vb_2021_0033|[亿赛通命令执行漏洞](pocs/vb_2021_0033-AtlassianJira_Information_Leakage.py)
-Atlassian Jira Information disclosure|vb_2021_0034|[Atlassian Jira Information disclosure](pocs/vb_2021_0034-YiSaiTong_RCE.py)
+亿赛通命令执行漏洞|vb_2021_0033|[亿赛通命令执行漏洞](pocs/vb_2021_0033-YiSaiTong_RCE.py)
+Atlassian Jira Information disclosure|vb_2021_0034|[Atlassian Jira Information disclosure](pocs/vb_2021_0034-AtlassianJira_Information_Leakage.py)
 LANLING OA file read|vb_2021_0035|[LANLING OA file read](pocs/vb_2021_0035_OA_fileread.py)
 CISCO Read-Only Path Traversal Vuln|vb_2021_0036|[CISCO Read-Only Path Traversal Vuln](pocs/vb_2021_0036_CISCO_Arbitrary_File_Read.py)
 Seeyon_Ajax_Getshell|vb_2021_0037|[Seeyon_Ajax_Getshell](pocs/vb_2021_0037_Seeyon_Ajax_Getshell.py)
@@ -100,6 +100,7 @@ coremail_information_leak|vb_2021_0050|[coremail_information_leak](pocs/vb_2021_
 CVE_2021_40870_Aviatrix_Controller|vb_2021_0051|[CVE_2021_40870_Aviatrix_Controller](pocs/vb_2021_0051_CVE_2021_40870_Aviatrix_Controller.py)
 CVE_2021_40845_Authenticated_File_Upload_RCE|vb_2021_0052|[CVE_2021_40845_Authenticated_File_Upload_RCE](pocs/vb_2021_0052_CVE_2021_40845_Authenticated_File_Upload_RCE.py)
 CVE_2021_26084_Confluence_OGNL_injection|vb_2021_0053|[CVE_2021_26084_Confluence_OGNL_injection](pocs/vb_2021_0053_CVE_2021_26084_Confluence_OGNL_injection.py)
+haoshitong_video_fileread|vb_2021_0054|[haoshitong_video_fileread](pocs/vb_2021_0054_haoshitong_video_fileread.py)
 
 ### 特点
 

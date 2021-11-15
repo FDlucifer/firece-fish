@@ -2,7 +2,6 @@ from BasePoc import BasePoc
 from urllib.parse import urljoin
 import requests
 import sys
-import random
 import re
 from requests.packages.urllib3.exceptions import InsecureRequestWarning
 from utils import tree, highlight,req
