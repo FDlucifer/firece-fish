@@ -102,6 +102,7 @@ CVE_2021_40845_Authenticated_File_Upload_RCE|vb_2021_0052|[CVE_2021_40845_Authen
 CVE_2021_26084_Confluence_OGNL_injection|vb_2021_0053|[CVE_2021_26084_Confluence_OGNL_injection](pocs/vb_2021_0053_CVE_2021_26084_Confluence_OGNL_injection.py)
 haoshitong_video_fileread|vb_2021_0054|[haoshitong_video_fileread](pocs/vb_2021_0054_haoshitong_video_fileread.py)
 wanhuoa_file_download|vb_2021_0055|[wanhuoa_file_download](pocs/vb_2021_0055_wanhuoa_file_download.py)
+NS_NGFW_RCE|vb_2021_0056|[NS_NGFW_RCE](pocs/vb_2021_0056_NS_NGFW_RCE.py)
 
 ### 特点
 
