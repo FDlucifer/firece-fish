@@ -104,6 +104,7 @@ haoshitong_video_fileread|vb_2021_0054|[haoshitong_video_fileread](pocs/vb_2021_
 wanhuoa_file_download|vb_2021_0055|[wanhuoa_file_download](pocs/vb_2021_0055_wanhuoa_file_download.py)
 NS_NGFW_RCE|vb_2021_0056|[NS_NGFW_RCE](pocs/vb_2021_0056_NS_NGFW_RCE.py)
 Confluence_SSTI_CVE_2019_3396|vb_2021_0057|[Confluence_SSTI_CVE_2019_3396](pocs/vb_2021_0057_Confluence_SSTI_CVE_2019_3396.py)
+Metabase_fileread_CVE_2021_41277|vb_2021_0058|[Metabase_fileread_CVE_2021_41277](pocs/vb_2021_0058_Metabase_fileread_CVE_2021_41277.py)
 
 ### 特点
 
