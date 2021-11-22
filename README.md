@@ -103,6 +103,7 @@ CVE_2021_26084_Confluence_OGNL_injection|vb_2021_0053|[CVE_2021_26084_Confluence
 haoshitong_video_fileread|vb_2021_0054|[haoshitong_video_fileread](pocs/vb_2021_0054_haoshitong_video_fileread.py)
 wanhuoa_file_download|vb_2021_0055|[wanhuoa_file_download](pocs/vb_2021_0055_wanhuoa_file_download.py)
 NS_NGFW_RCE|vb_2021_0056|[NS_NGFW_RCE](pocs/vb_2021_0056_NS_NGFW_RCE.py)
+Confluence_SSTI_CVE_2019_3396|vb_2021_0057|[Confluence_SSTI_CVE_2019_3396](pocs/vb_2021_0057_Confluence_SSTI_CVE_2019_3396.py)
 
 ### 特点
 
