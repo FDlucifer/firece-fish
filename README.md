@@ -105,6 +105,7 @@ wanhuoa_file_download|vb_2021_0055|[wanhuoa_file_download](pocs/vb_2021_0055_wan
 NS_NGFW_RCE|vb_2021_0056|[NS_NGFW_RCE](pocs/vb_2021_0056_NS_NGFW_RCE.py)
 Confluence_SSTI_CVE_2019_3396|vb_2021_0057|[Confluence_SSTI_CVE_2019_3396](pocs/vb_2021_0057_Confluence_SSTI_CVE_2019_3396.py)
 Metabase_fileread_CVE_2021_41277|vb_2021_0058|[Metabase_fileread_CVE_2021_41277](pocs/vb_2021_0058_Metabase_fileread_CVE_2021_41277.py)
+fanwei_cnvd_2021_49104|vb_2021_0059|[泛微e-office 任意文件上传](pocs/vb_2021_0059_fanwei_Any_file_upload.py)
 
 ### 特点
 
